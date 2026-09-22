@@ -1,0 +1,110 @@
+{
+  "name": "Liquid Glass Piemonte",
+  "dataColors": [
+    "#4BA3FF",
+    "#5CD6FF",
+    "#34C759",
+    "#FF9F0A",
+    "#FF453A",
+    "#BFB5FF",
+    "#7A5AF8",
+    "#8FD19E"
+  ],
+  "background": "#F5F7FA",
+  "foreground": "#1D1D1F",
+  "tableAccent": "#4BA3FF",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#1D1D1F"
+              }
+            },
+            "fontSize": 16,
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 12
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#DCE3EB"
+              }
+            },
+            "radius": 16
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#1D1D1F"
+              }
+            }
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#6E6E73"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "gridVerticalColor": {
+              "solid": {
+                "color": "#EDF1F5"
+              }
+            },
+            "gridHorizontalColor": {
+              "solid": {
+                "color": "#EDF1F5"
+              }
+            }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#1D1D1F"
+              }
+            },
+            "backgroundColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
